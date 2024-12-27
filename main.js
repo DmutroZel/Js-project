@@ -45,7 +45,7 @@ $('#colorPicker').change(function () {
 });
 
 
-// Функція для збереження даних у localStorage
+
 function saveToLocalStorage() {
     localStorage.setItem('htmlContent', $('#htmlArea').val());
     localStorage.setItem('cssContent', $('#cssArea').val());
